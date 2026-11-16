@@ -152,11 +152,9 @@ Date readDate(const string& text) {
 }
 
 int main() {
-    setlocale(LC_ALL, "Russian");
-
+    setlocale(LC_ALL, "RU");
     Date d1 = readDate("Введите дату D1");
     int choice;
-
     do {
         cout << "\nD1 = ";
         d1.print();
